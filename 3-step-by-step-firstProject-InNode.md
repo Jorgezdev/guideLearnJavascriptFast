@@ -1,15 +1,16 @@
 
 
-abrimos la terminal en el proyecto cual estamos trabajando en vs code, verificamos en la terminal que estamos dentro del proyecto cual trabajamos y ponemos el siguiente comando : 
+we open the terminal in the project we're working on in VS Code, verify that we're in the correct project, and enter the following command:
 
 npm init 
 
-es probable que nos de una restriccion con la siguiente informacion:
+It is likely that it will give us a restriction with the following information: 
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""
-npm : No se puede cargar el archivo C:\Program Files\nodejs\npm.ps1 
-porque la ejecución de scripts está deshabilitada en este sistema. Para 
-obtener más información, consulta el tema about_Execution_Policies en   
+
+""""""""""""""""""""""""""""""""""""""""""
+npm : The file could not be uploaded C:\Program Files\nodejs\npm.ps1 
+Because script execution is disabled on this system.
+For more information, see the topic about_Execution_Policies in   
 https:/go.microsoft.com/fwlink/?LinkID=135170.
 + npm init
 + ~~~
@@ -17,20 +18,21 @@ https:/go.microsoft.com/fwlink/?LinkID=135170.
    n
     + FullyQualifiedErrorId : UnauthorizedAccess
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""
 
-es una restricción de seguridad de PowerShell en Windows desde la Powershell, debes agregar el siguiente codigo en la power shell:
+This is a Powershell security restriction in windows; you must add the following code to PowerShell:
 
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 
-Luego de eso nuevamente volvemos a la terminal de nuestro proyecto en vscode y en la terminal agregamos el comando anterior: 
+After that, we return to the terminal of our Vs Code project and add the previous command:
 
 npm init 
 
-Esto nos creara un archivo package.json cual decidiremos algunas caracteristicas de nuestro proyecto como nombre, la version, descripcion, entry point (por lo general este nombre de archivo es index.js pero es modificable),  tipo de test (por lo general es jest), nombre del repositorio, palabras clave, autor.. etc... tras finalizar llenando los datos se creara el archivo mencionado anteriormente. 
+This will create a package.json file where we will decide some characteristics of our project sucj as name, version, description, entry point (usually this file name is index.js but it can be modified), test type (usually jest), repository name, keywords, author, etc. After filling in the data, the aforementioned file will be created.
 
-""""
+
+"""""""""""""example"""""""""""""
 
 package name: (javascript-open-bootcamp)
 version: (1.0.0)
@@ -44,9 +46,7 @@ license: (ISC)
 type: (commonjs)
 About to write to C:\Users\jorge.zavala\Desktop\projectsPractices\javascript open bootcamp\package.json:
 
-""""
+""""""""""""""
 
 
-
-
-nota: para hacer un console.log("Hola mundo") en la terminal de vscode se debe tener instalado nodejs 
+note: To run 'console.log("Hello world")' in the VS Code terminal, you must have Node.js installed.
