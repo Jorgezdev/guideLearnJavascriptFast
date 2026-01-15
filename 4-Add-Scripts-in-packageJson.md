@@ -1,0 +1,1 @@
+In our package.json file we added two scripts, "afternoonGreeting" and "greeting", which can be called in the vs code terminal by the script name or the file name.
