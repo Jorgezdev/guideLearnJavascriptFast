@@ -1,5 +1,6 @@
 //To print in the termminal, you must enter the command: npm run buenastardes
 console.log("good afternoon, How are you?");
 
-/* ya que en package.json se agregó el script "buenastardes": "node saludoTarde.js"
- también se puede ejecutar con el comando node saludoTarde.js de manera directa */
+/* Since the script "afternoonGreeting" was added to package.json: "node goodAfternoon.js"
+
+It can also be run directly with the command: node goodAfternoon.js */
