@@ -1,16 +1,18 @@
-// ; -> demilita el final de una linea
-// . -> se usa en los objetos para acceder a los atributos o metodos 
-// {} -> se usan para definir objetos, funciones y estructuras de control
-// () -> se usan para definir funciones o invocarlas
-// [] -> se usan para definir arreglos o acceder a elementos de un arreglo o propiedades de un objeto mediante una variable (listas , arreglos o arrays)
+// ; -> delimits the end og a line
+// . -> it is used in objects to access attributes or methods
+// {} -> they are used to define objects, functions, and control structures (like if, for, while)
+// () -> they are used to define or invoke functions, and to group expressions
+// [] -> they are used to define arrays or accesss elemnts of an array or properties of an object using a variable (lists, array or arrays)
 
-// Ejemplos:
+// 
 
-// Punto y coma
+// Examples of each notation:
+
+// Semicolon
 let x = 10;
 let y = 20;
 
-// Punto
+// point
 let persona = {
     nombre: "Juan",
     edad: 30,   
@@ -19,23 +21,23 @@ let persona = {
     }   
 };
 
-// Llaves
+// keys
 if (x < y) {
     console.log("x es menor que y");
 }
-persona.saludar(); // Invocando el metodo saludar del objeto persona
+persona.saludar(); // Invoking the greet methos of the person object
 
-// Parentesis
+// parenthesis
 function sumar(a, b) {
     return a + b;
 }   
 let resultado = sumar(x, y);
 console.log("La suma de x e y es: " + resultado);
 
-// Corchetes
+// Brackets
 let numeros = [1, 2, 3, 4, 5];
-console.log("El primer numero es: " + numeros[0]); // Accediendo al primer elemento del arreglo 
+console.log("El primer numero es: " + numeros[0]); // Accessing the first element of the array
 let propiedad = "edad";
-console.log("La edad de la persona es: " + persona[propiedad]); // Accediendo a la propiedad 'edad' del objeto persona usando una variable  
+console.log("La edad de la persona es: " + persona[propiedad]); // Accessing the "age" property og the person object using a variable 
 
-/* Nota: En JavaScript, el uso de punto y coma al final de las lineas es opcional en muchos casos debido a la insercion automatica de punto y coma (ASI - Automatic Semicolon Insertion). Sin embargo, es una buena practica usarlos para evitar errores inesperados. */
+/* Note: In Javascript, using semicolons at the end of lines is optional in many cases due to automatic semicolon insertion (ASI). However, it's a good practice to use them to avoid unexpected errors. */
