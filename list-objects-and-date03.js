@@ -31,4 +31,20 @@ console.log(persona.profesion); // Accessing the "profession" property of the pe
 
 
 // Date
-new Date(); // Create a new date object with the current date and time, always using uppercase D in Date.
+// libreria muy buena  : Moment.js
+const ahora =new Date(); // Create a new date object with the current date and time, always using uppercase D in Date.
+console.log(ahora);
+
+const fecha_milisegundos = new Date(10); //     Create a new date object with a specific number of milliseconds since January 1, 1970 
+console.log(fecha_milisegundos);
+
+const Fecha_cadena = new Date("february 1, 2026"); // Create a new date object with a specific date string 
+console.log(Fecha_cadena);
+
+const fecha_valores = new Date(2022, 0, 21)     // Create a new date object with specific year, month (0-based index), and day values (year, month, day) 
+console.log(fecha_valores);
+
+const dia = ahora.getDate(); // Get the day of the month (1-31) from the date object
+const mes = ahora.getMonth() + 1; // Get the month (0-11) from the date object, adding 1 to get a 1-based index
+const año = ahora.getFullYear(); // Get the full year (4 digits) from the date object
+console.log("Hoy es: " + dia + "/" + mes + "/" + año);
