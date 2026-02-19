@@ -3,14 +3,14 @@
 
 // if-else
 
-let saldoCajero = 20000;
-let efectivoRetirar = 50000;
+let balanceCashier = 20000;
+let cashWithdraw = 50000;
 
 
-    if (efectivoRetirar <= saldoCajero) {
-        console.log("puedes sacar dinero");
+    if (cashWithdraw <= balanceCashier) {
+        console.log("You can withdraw money");
     } else {
-        console.log("No puedes sacar dinero, saldo insuficiente");
+        console.log("You cannot withdraw money, insufficient funds");
     }
 
 // Always add a default as a good practice in a switch statement, to avoid errors in case none of the above conditions are met.
@@ -48,59 +48,59 @@ Average(4.6);
 
 /*
 
-🧠 Por qué funciona (clave para entender el desafío)
+🧠 Why it works (key to understanding the challenge)
 
-Cuando haces:
+When you do:
 
 switch(true)
 
 
-El switch compara cada case como una expresión booleana:
+The switch statement compare eash case as a Boolean expression:
 
 true === (nota >= 5)
 true === (nota >= 4)
 
 
-Entonces se comporta como un evaluador de condiciones.
+Then it behaves like a condition evaluator.
 
-👉 Es literalmente un “if escondido dentro de switch” — muy usado en retos.
+👉 It´s literally an "if hidden inside a switch" - very commonly used in challenges.
 
 
 */ 
 
 
 /*
-⭐ Versión más pro (retorna valor)
-function Promedio(nota) {
+⭐ Version more pro (returns value)
+function Average(note) {
 
     switch (true) {
 
-        case nota >= 5:
-            return "Aprobado, pudo haber sido mejor";
+        case note >= 5:
+            return "Approved, could have been better";
 
-        case nota >= 4:
-            return "Aprobado, pero debes esforzarte más";
+        case note >= 4:
+            return "Approved, but you need to try harder";
 
-        case nota >= 1:
-            return "Reprobado, necesitas estudiar más";
+        case note >= 1:
+            return "Failed, you need to study more";
 
         default:
-            return "Nota inválida";
+            return "Invalid note";
     }
 }
 
-console.log(Promedio(3.5));
+console.log(Average(3.5));
 
 */
 
 
 /*
 
-Cuando alguien te diga:
+When someone tells you:
 
-“Resuélvelo con switch aunque sean rangos”
+“Solve it with a switch statement, even if they are ranges”
 
-La respuesta mental es:
+the mental answer is: 
 
 👉 switch(true)
 
