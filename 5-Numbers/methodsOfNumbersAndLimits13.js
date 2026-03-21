@@ -45,3 +45,16 @@ console.log(numeroF + numeroG); // el resultado sera 458,750100 por que el signo
 
 console.log(Number(numeroF) + numeroG); // aqui el resultado sera la suma de los dos valores.
 
+//parseInt and parseFloat transforman un valor numerico y lo fuerzan a ser valor numero entero si es decimal o si es decimal lo mantiene
+
+console.log(parseInt(numeroF));
+
+console.log(parseFloat(numeroF));
+
+//Nmeros hexadecimales
+
+// Obtener los valores maximos y minimos en javascript
+
+
+
+
