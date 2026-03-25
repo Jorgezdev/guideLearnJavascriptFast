@@ -45,3 +45,32 @@ console.log(numeroF + numeroG); // el resultado sera 458,750100 por que el signo
 
 console.log(Number(numeroF) + numeroG); // aqui el resultado sera la suma de los dos valores.
 
+//parseInt and parseFloat transforman un valor numerico y lo fuerzan a ser valor numero entero si es decimal o si es decimal lo mantiene
+
+console.log(parseInt(numeroF));
+
+console.log(parseFloat(numeroF));
+
+//Nmeros hexadecimales, su uso no es muy comun pero vale la pena investigar y saber mas sobre su uso
+
+let nomHexadecimal = "0x3a5f6" // siempre parten con un 0x
+console.log(parseInt(nomHexadecimal));
+console.log(Number(nomHexadecimal));
+console.log(parseFloat(nomHexadecimal)); 
+
+// Obtener los valores maximos y minimos en javascript
+// 2 fundamentos que permiten tener el valor maximo de un valor, minimo.
+// Tambien tenemos a EPSILON es para tener el valor minimo de un espacio entre un numero y el otro?
+
+
+let MaximoValorJs = Number.MAX_VALUE;
+let MinimoValorJs = Number.MIN_VALUE;
+let MinimoDistanciaEntreNumeros = Number.EPSILON;
+
+
+console.log(MaximoValorJs);
+console.log(MinimoValorJs);
+console.log(MinimoDistanciaEntreNumeros);
+
+
+
