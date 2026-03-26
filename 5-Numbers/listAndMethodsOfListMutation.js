@@ -54,7 +54,7 @@ console.log(array4);
 array4.splice(2, 0, "NuevoC", "NuevoD", "NuevoF");
 console.log(array4);
 
-//Modificar valores en una array, casi lo mismo que en el caso anterior, primero ingresamos el indice de donde empiece a modificar el valor, luego ingresamos 3 por que borraremos primero esos valores, y en la tercera posicion añadiremos los nuevos valores a nuestra array:
+//Modificar valores en una array, casi lo mismo que en el caso anterior, primero ingresamos el indice de donde empiece a modificar el valor, luego ingresamos 3 por que borraremos primero esos valores, y desde la tercera posicion añadiremos los nuevos valores a nuestra array:
 
 
 array4.splice(2, 3, "Cfinal", "Dfinal", "Ffinal");
