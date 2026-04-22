@@ -1,5 +1,5 @@
 // sort() method is used to sort the elements of an array in place and returns the sorted array.
-const array = ["San Sebastián", "Madrid", "Barcelona", "Alicante", "Bilbao"]
+const array = ["San Sebastián", "Madrid", "Barcelona", "Alicante", "Bilbao"];
 
 array.sort((a, b) => {
     if(a < b){
@@ -90,8 +90,4 @@ console.log(resultadoEvery1) // false
 
 
 
-
-
-
-//otro ejemplo 
 

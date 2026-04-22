@@ -38,6 +38,9 @@ console.log(newArray3) // [ '1 - Iquique', '2 - Puerto montt', '3 - Coyhaique', 
 // con el metodo .map() se puede obtener un nuevo array con los resultados de la funcion que se le pasa como argumento, en este caso se obtiene un nuevo array con los elementos del array original pero con un formato diferente, ya que se le agrega el indice de cada elemento al principio de cada elemento, lo que devuelve un nuevo array con los elementos formateados.
 
 
+// la gran diferencia es que .forEach() solo recorre el array pero no devuelve nada (por eso val es undefined), mientras que .map() crea un nuevo array con los resultados de lo que retornes en la función.
+
+
 
 const listaObjetos = [
     {nombre: "Iquique", poblacion: 191468},
