@@ -75,4 +75,3 @@ console.log(ciudadesSinCapital) // [ { nombre: 'Iquique', poblacion: 191468 }, {
 const sumaPoblaciones = listaObjetos.reduce((acumulador, ciudad) => acumulador + ciudad.poblacion, 0)
 console.log(sumaPoblaciones) // 7496468
 // con el metodo .reduce() se puede obtener un nuevo valor a partir de los elementos de un array, en este caso se obtiene la suma de las poblaciones de todas las ciudades, lo que devuelve un nuevo valor con la suma de las poblaciones.
-
