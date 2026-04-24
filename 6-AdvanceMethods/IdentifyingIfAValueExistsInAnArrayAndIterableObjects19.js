@@ -76,3 +76,7 @@ console.log(Array.from(arrayNumerosSome1.keys())) // [ 0, 1, 2, 3, 4, 5, 6, 7 ]
 const arrayKeys = Array.from(keys)
 console.log(arrayKeys) // [ 0, 1, 2, 3, 4, 5, 6, 7 ]
 // en este caso se utiliza el metodo Array.from() para obtener una lista a partir de un objeto iterador, lo que devuelve un array con cada clave del array como un elemento del array, el metodo Array.from() se utiliza para crear un nuevo array a partir de un objeto iterable, en este caso se crea un nuevo array a partir del objeto iterador de las claves del array, lo que permite obtener una lista con cada clave del array como un elemento del array.
+
+
+// estos metodos son muy utilizados para obtener listas a partir de objetos iterables, como strings, Sets, Maps, etc., lo que permite trabajar con estos objetos de una manera mas facil y eficiente, ya que se pueden utilizar los metodos de los arrays para manipular estos objetos de una manera mas sencilla, como por ejemplo, obtener un nuevo array con los elementos de un Set que cumplen con una condicion especifica, o obtener un nuevo array con los caracteres de un string que cumplen con una condicion especifica, etc.
+
