@@ -96,6 +96,8 @@ function suma (...numeros) {
    console.log(multiplicar(5, 10)); // Imprime: 50
    console.log(variable_interna); // Error: variable_interna is not defined (no se puede acceder a la variable local fuera de la función)
    // En este ejemplo, la función multiplicar accede a la variable global variableGlobal y también define una variable local variable_interna. La función imprime ambas variables y luego devuelve el producto de a y b. Sin embargo, al intentar acceder a variable_interna fuera de la función, se produce un error porque esa variable solo existe dentro del ámbito de la función.
-   
+
+// si defines variables dentro de una funcion e intentas acceder a ella fuera de la funcion , no te aparecera , pero si creas una variable fuera de una funcion, si puedes llamarla adentro de la funcion.
+
 
 
