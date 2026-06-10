@@ -42,6 +42,6 @@ function doble(valor) {
 const array4 = array.map(doble);
 console.log(array4); // Imprime: [2, 4, 6, 8, 10]
 
-// las funciones tipo flecha no pueden ser utilizadas como constructores, es decir, no se pueden usar con la palabra clave new para crear objetos, mientras que las funciones normales si pueden ser utilizadas como constructores.
+// las funciones tipo flecha no pueden ser utilizadas como> constructores, es decir, no se pueden usar con la palabra clave new para crear objetos, mientras que las funciones normales si pueden ser utilizadas como constructores.
 
 // las funciones tipo flecha no tienen su propio objeto arguments, por lo que no pueden acceder a los argumentos pasados a la función, mientras que las funciones normales si tienen su propio objeto arguments que contiene los argumentos pasados a la función.
