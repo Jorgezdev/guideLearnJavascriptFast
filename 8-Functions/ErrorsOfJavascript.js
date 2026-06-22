@@ -22,7 +22,7 @@ try { // codigo que puede generar un error
 }
 
 // En este ejemplo, se define una variable numero con el valor 8. Luego, se utiliza un bloque try-catch para manejar posibles errores al llamar a la función miFunction con el valor de numero. Si la función se ejecuta correctamente, se imprime un mensaje indicando que se está ejecutando de manera correcta y luego se imprime el resultado de la función miFunction. Si se genera un error (por ejemplo, si numero no fuera un número), el bloque catch captura el error y se imprime su mensaje utilizando console.error(e.message).
-
+//
 
 // tipos de errores en JavaScript
 
