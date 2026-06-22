@@ -15,7 +15,7 @@ try { // codigo que puede generar un error
     const doble = miFunction(numero); // Llama a la función miFunction con el valor de numero
     console.log(doble); // Imprime el resultado de la función miFunction
 } catch (e) { // codigo que se ejecuta si se genera un error
-    console.error(e.message); // Imprime el mensaje de error
+    console.log("Error: " + e.message); // Imprime el mensaje de error utilizando console.error(e.message)
 }
 
 // En este ejemplo, se define una variable numero con el valor 8. Luego, se utiliza un bloque try-catch para manejar posibles errores al llamar a la función miFunction con el valor de numero. Si la función se ejecuta correctamente, se imprime un mensaje indicando que se está ejecutando de manera correcta y luego se imprime el resultado de la función miFunction. Si se genera un error (por ejemplo, si numero no fuera un número), el bloque catch captura el error y se imprime su mensaje utilizando console.error(e.message).
