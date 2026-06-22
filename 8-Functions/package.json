@@ -1,0 +1,23 @@
+{
+  "name": "8-functions",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "guide",
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "npm guide learn javascript"
+  },
+  "license": "ISC",
+  "author": "Jorge Zavala",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "winston": "^3.19.0"
+  }
+}

@@ -1,0 +1,15 @@
+{"level":"info","message":"Hello, this is an informational message","service":"user-service"}
+{"level":"warn","message":"Hello, this is a warning message","service":"user-service"}
+{"level":"error","message":"Hello, this is an error message","service":"user-service"}
+{"level":"info","message":"Hello, this is an informational message","service":"user-service"}
+{"level":"debug","message":"Hello, this is a debug message","service":"user-service"}
+{"level":"warn","message":"Hello, this is a warning message","service":"user-service"}
+{"level":"error","message":"Hello, this is an error message","service":"user-service"}
+{"level":"info","message":"Hello, this is an informational message","service":"user-service"}
+{"level":"debug","message":"Hello, this is a debug message","service":"user-service"}
+{"level":"warn","message":"Hello, this is a warning message","service":"user-service"}
+{"level":"error","message":"Hello, this is an error message","service":"user-service"}
+{"level":"info","message":"Hello, this is an informational message","service":"user-service"}
+{"level":"debug","message":"Hello, this is a debug message","service":"user-service"}
+{"level":"warn","message":"Hello, this is a warning message","service":"user-service"}
+{"level":"error","message":"Hello, this is an error message","service":"user-service"}
