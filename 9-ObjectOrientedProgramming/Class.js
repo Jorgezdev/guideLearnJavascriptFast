@@ -26,3 +26,6 @@ let persona2 = new Persona("maria", 25, false); // instanciacion
 // instanceof es un operador que nos permite saber si un objeto es una instancia de una clase, es decir, si un objeto fue creado a partir de una clase.
 console.log(persona1 instanceof Persona);
 console.log(persona2 instanceof Persona);
+
+
+// persona.nombre pudimos acceder a lavariable por que es origen publica, tambien podemos crear variables privadas. 
