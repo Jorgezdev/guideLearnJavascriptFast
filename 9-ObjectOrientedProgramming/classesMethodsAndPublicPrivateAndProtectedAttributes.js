@@ -7,7 +7,7 @@ class Persona {
   _isDeveloper = true
     constructor(name, edad, isDeveloper) {
         this.#nombre = name
-        this.#edad = edad
+        this.#edad = edad // esto es un getter por ejemplo
         this.isDeveloper = isDeveloper;
     }//this. hace referencia al objeto que esta escogiendo this.nombre, esto se le conoce como metodo constructor (this.nombre)
     saludo() {
@@ -15,7 +15,7 @@ class Persona {
     } // todas las funciones dentro de objetos o clases se llaman metodos. 
 
 
-    obtenNombre() {
+    obtenNombre() { // funcion getter -> nos permite acceder (de forma controlada) a algun atributo protegido
         return this.#nombre 
     }
 }
@@ -28,3 +28,8 @@ const persona = new Persona("Gorka", 70)
 persona.saludo()
 
 console.log(persona.obtenNombre())
+
+
+// Getter -> metodos que nos permiten obtner atributos/metodos privados o protegidos
+// Setter -> metodos que nos permiten cambiar el valor de los atributos privados o publicos 
+// poner en practica estos conceptos, hay diferencias y son muy usados en clases. 
